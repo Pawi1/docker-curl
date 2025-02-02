@@ -9,7 +9,7 @@ ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 LABEL name="pawi1/curl"
 LABEL version="0.0.1"
 LABEL description="This is a Curl image, designed to minimize the size."
-LABEL architecture="aarch64"
+LABEL architecture="arm64"
 
 
 ENTRYPOINT ["/usr/bin/curl"]
